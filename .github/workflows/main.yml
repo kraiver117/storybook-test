@@ -31,11 +31,11 @@ jobs:
       
       # Run npm i to install all dependencies
       - name: Install Dependencies
-        run: npm run install
+        run: npm install
       
       # Run npm build app to create dist folder
       - name: Build Dependencies
-        run: npm run build
+        run: npm build
 
       # Set environment variables & run semantic release
       - name: Semantic Release
