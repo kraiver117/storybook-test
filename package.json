@@ -74,6 +74,15 @@
     "babel-loader": "^8.2.4",
     "chromatic": "^6.5.3",
     "copyfile": "^0.1.2",
-    "rimraf": "^3.0.2"
-  }
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.2"
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ]
 }
